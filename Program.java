@@ -4,6 +4,7 @@ public class Program {
         //Ex002.execute();
         //Ex003.execute();
         //Ex004.execute();
-        Ex005.execute();
+        //Ex005.execute();
+        Ex006.execute();
     }
 }

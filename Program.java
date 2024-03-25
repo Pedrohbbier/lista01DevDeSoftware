@@ -18,6 +18,7 @@ public class Program {
         //Ex016.execute();
         //Ex017.execute();
         //Ex018.execute();
-        Ex019.execute();
+        //Ex019.execute();
+        Ex020.execute();
     }
 }

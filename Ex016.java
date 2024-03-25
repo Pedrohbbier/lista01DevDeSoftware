@@ -1,17 +1,15 @@
 public class Ex016 {
     public static void execute(){
 
-        double n1 = Prompt.lerDecimal("Digite a primeira nota: ");
-        double n2 = Prompt.lerDecimal("Digite a segunda nota: ");
-        double n3 = Prompt.lerDecimal("Digite a terceira nota: ");
+        double n1 = Prompt.lerDecimal("Digite a nota 1:");
+        double n2 = Prompt.lerDecimal("Digite a nota 2:");
+        double n3 = Prompt.lerDecimal("Digite a nota 3:");
 
-        double peso1 = Prompt.lerDecimal("Digite o peso da primeira nota: ");
-        double peso2 = Prompt.lerDecimal("Digite o peso da segunda nota: ");
-        double peso3 = Prompt.lerDecimal("Digite o peso da terceira nota: ");
+        double mediaAritmetica = (n1 + n2 + n3) / 3;
 
-        double mediaPonderada = (n1 * peso1 + n2 * peso2 + n3 * peso3) / (peso1 + peso2 + peso3);
+        Prompt.imprimir("Media Aritmetica: " + mediaAritmetica);
 
-        Prompt.imprimir("Media Ponderada: " + mediaPonderada);
+
 
     }
 }
